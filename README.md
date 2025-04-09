@@ -60,15 +60,7 @@ Agora, para rodar o projeto principal, siga os passos abaixo após clonar e abri
 
   👉 [http://localhost:5173](http://localhost:5173)
 
-
-
-
-
-
-
-
-
-
-
+🎥 Vídeo no YouTube mostrando como configurar o projeto:  
+👉 [Assista aqui](https://www.youtube.com)
 
    
