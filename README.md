@@ -18,3 +18,15 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 5. Clique em **"New"** para criar um novo schema.
 6. Nomeie o schema como `funcionarios`.
 7. Clique em **"Start Import"** para concluir a importação do banco de dados.
+
+## ▶️ Executando o projeto
+
+Agora, para rodar o projeto principal, siga os passos abaixo após clonar e abrir o repositório no VS Code:
+
+### 🔧 Backend
+
+1. Abra o **prompt de comando (cmd)**.
+2. Navegue até a pasta do backend com o comando:
+
+   ```bash
+   cd backend
