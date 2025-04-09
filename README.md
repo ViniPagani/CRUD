@@ -50,13 +50,13 @@ Agora, para rodar o projeto principal, siga os passos abaixo após clonar e abri
    ```bash
    npm run dev
 
-## 🌐 Acessando o projeto
+## 🌐 Executando o projeto
 
 - Para visualizar os dados do banco de dados através da API, acesse:
 
   👉 [http://localhost:8800/users](http://localhost:8800/users)
 
-- Para acessar o site com a interface do sistema, use o link exibido no terminal ao rodar o frontend. Geralmente será:
+- Para acessar o site com a interface do sistema, use o link exibido no terminal ao rodar o frontend. Como exemplo:
 
   👉 [http://localhost:5173](http://localhost:5173)
 
