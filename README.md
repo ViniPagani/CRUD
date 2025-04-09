@@ -54,11 +54,11 @@ Agora, para rodar o projeto principal, siga os passos abaixo após clonar e abri
 
 ## 🌐 Executando o projeto
 
-- Para visualizar os dados do banco de dados através da API, acesse:
+- Para visualizar os dados do banco de dados através da API, acesse no seu navegador (browser):
 
   👉 [http://localhost:8800/users](http://localhost:8800/users)
 
-- Para acessar o site com a interface do sistema, use o link exibido no terminal ao rodar o frontend. Como exemplo:
+- Para acessar o site com a interface do sistema, use o link exibido no terminal ao rodar o frontend e cole no navegador (browser). Como exemplo:
 
   👉 [http://localhost:5173](http://localhost:5173)
 
