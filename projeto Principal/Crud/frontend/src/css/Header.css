@@ -1,0 +1,75 @@
+/* Resetando margens e padding para garantir um layout consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para o header */
+  .header {
+    background-color: #02366d;  /* Cor de fundo do header */
+    color: white;  /* Cor do texto */
+    display: flex;
+    justify-content: space-between;  /* Espaça os itens de forma uniforme */
+    align-items: center;  /* Centraliza os itens verticalmente */
+    padding: 20px;
+    position: fixed;  /* Faz o header ficar fixo no topo da página */
+    top: 0;  /* Posiciona o header no topo */
+    left: 0;  /* Posiciona o header na margem esquerda */
+    width: 100%;  /* Faz o header ocupar toda a largura da tela */
+    z-index: 1000;  /* Garante que o header ficará acima de outros conteúdos */
+  }
+  
+  .header .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .header .nav ul {
+    list-style-type: none;  /* Remove as bolinhas da lista */
+    display: flex;  /* Organiza os itens da lista horizontalmente */
+  }
+  
+  .header .nav ul li {
+    margin-right: 20px;  /* Espaço entre os itens do menu */
+  }
+  
+  .header .nav ul li a {
+    text-decoration: none;  /* Remove o sublinhado dos links */
+    color: white;  /* Cor do texto dos links */
+    font-size: 1.2rem;  /* Tamanho da fonte dos links */
+    padding: 10px;
+    transition: background-color 0.3s;  /* Transição suave para o hover */
+  }
+  
+  .header .nav ul li a:hover {
+    background-color: #5a74ca;  /* Cor de fundo ao passar o mouse */
+    border-radius: 5px;  /* Bordas arredondadas */
+  }
+
+  .btn-add{
+    background: #43ad05;
+    color: rgb(233, 227, 227);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 3px;
+    padding: 7px 9px;
+  }
+  
+  .btn-add:hover{
+    background: #0d771d;
+  }
+  
+  /* Adicionando espaço ao conteúdo para não ficar escondido atrás do header */
+  main {
+    margin-top: 80px;  /* Ajuste para o conteúdo não ficar atrás do header fixo */
+    padding: 20px;
+  }
+  

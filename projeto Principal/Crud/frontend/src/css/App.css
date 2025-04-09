@@ -1,0 +1,132 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  color: rgb(241, 241, 241);
+}
+
+.li-list {
+  padding: 15px;
+  border-radius: 8px;
+  list-style-type: none;
+  background: linear-gradient(135deg, #909baf, #5a74ca);
+  box-shadow: rgba(14, 113, 226, 0.15) 5px 14px 18px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.li-list:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(44, 3, 141, 0.25) 0px 10px 15px;
+}
+
+.btn-list {
+  background: #02366d;
+  color: rgb(233, 227, 227);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-align: center;
+  flex-grow: 1;
+  margin-left: 0px;
+}
+
+.btn-list:hover {
+  background: #0056b3;
+}
+
+.btn-update{
+  background: #02366d;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  font-size: 12px;
+  margin-left: 80px;
+  padding: 7px 9px;
+}
+
+.btn-update:hover{
+  background: #0056b3;
+}
+
+.btn-excluir{
+  background: #02366d;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  font-size: 12px;
+  margin-left: 3px;
+  padding: 7px 9px;
+}
+
+.btn-excluir:hover{
+  background: #0056b3;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: rgb(189, 188, 192);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: rgb(82, 82, 88);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-content button:hover {
+  background-color: rgb(34, 34, 48);
+  
+}
+.teste{
+  color: rgb(0, 0, 0);
+}
