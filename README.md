@@ -42,7 +42,7 @@ Agora, para rodar o projeto principal, siga os passos abaixo após clonar e abri
 2. Navegue até a pasta do frontend com o comando:
 
    ```bash
-   cd backend
+   cd frontend
 3. Instale as dependências com:
    ```bash
    npm install
