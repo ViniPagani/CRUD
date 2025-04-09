@@ -2,6 +2,8 @@
 
 Este projeto é um sistema CRUD para gerenciamento de funcionários usando React.
 
+###Como rodar o projeto:
+
 ## ⚙️ Pré-requisitos
 
 Antes de rodar o projeto, certifique-se de ter instalado:
