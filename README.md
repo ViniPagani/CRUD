@@ -23,10 +23,42 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 
 Agora, para rodar o projeto principal, siga os passos abaixo após clonar e abrir o repositório no VS Code:
 
-### 🔧 Backend
+###  Backend
 
 1. Abra o **prompt de comando (cmd)**.
 2. Navegue até a pasta do backend com o comando:
 
    ```bash
    cd backend
+3. Instale as dependências com:
+   ```bash
+   npm install
+4. Inicie o servidor backend com o comando:
+   ```bash
+   npm start
+###  Frontend
+
+1. Abra o **prompt de comando (cmd)**.
+2. Navegue até a pasta do frontend com o comando:
+
+   ```bash
+   cd backend
+3. Instale as dependências com:
+   ```bash
+   npm install
+4. Inicie o servidor frontend com o comando:
+   ```bash
+   npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+   
